@@ -48,6 +48,5 @@ public function domain($url){
 
 }
 
-
 ?>
 
