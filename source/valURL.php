@@ -28,7 +28,7 @@ public function subString($url1 , $url2){
 
     if($urlSub1 == "/" && $urlSub2 == "/"){
         return $url_rep.$url2;
-    } elseif ($urlSub1 != "/"  &&  $urlSub2 != "/"){
+    } elseif ( $urlSub1 != "/"  &&  $urlSub2 != "/" ){
         return $url1."/".$url2;
     } else {
         return $url1.$url2;
