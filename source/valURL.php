@@ -39,9 +39,11 @@ public function subString($url1 , $url2){
 public function protocol($url){
     return parse_url($url, PHP_URL_SCHEME);
 }
+
 public function port($url){
     return parse_url($url, PHP_URL_PORT);
 }
+
 public function domain($url){
     return parse_url($url, PHP_URL_HOST);
 }
